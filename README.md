@@ -76,24 +76,50 @@ Data:
 
 # Model Building and Evaluation
 
-## Initial Model
+## Initial Model Steps
 
-1. **Load Data**: Read `charity_data.csv` into a Pandas DataFrame.
-2. **Define Target**: Set `IS_SUCCESSFUL` as the target variable.
-3. **Define Features**: Exclude `IS_SUCCESSFUL` from feature variables.
-4. **De-identify Data**: Drop `EIN` and `NAME` columns.
-5. **Analyze Unique Values**: Check the number of unique values in each column.
-6. **Group Rare Categories**: For columns with many unique values, combine rare categories into an "Other" category.
-7. **Encode Categorical Variables**: Use `pd.get_dummies()` for encoding.
-8. **Split Data**: Separate data into features (`X`) and target (`y`), then use `train_test_split` for training and testing sets.
-9. **Scale Features**: Standardize features using `StandardScaler()`.
-10. **Build Model**: Create a neural network model with TensorFlow and Keras.
-11. **Add Layers**: Include hidden layers with appropriate activation functions and an output layer.
-12. **Check Model Structure**: Inspect the model architecture.
-13. **Compile and Train**: Compile and fit the model.
-14. **Save Weights**: Use a callback to save model weights every 5 epochs.
-15. **Evaluate Model**: Determine loss and accuracy on test data.
-16. **Export Results**: Save the model as `AlphabetSoupCharity.h5`.
+1. **Load Data**: 
+	Read `charity_data.csv` into a Pandas DataFrame.
+2. **Define Target**: 
+	Set `IS_SUCCESSFUL` as the target variable.
+3. **Define Features**: 
+	Exclude `IS_SUCCESSFUL` from feature variables.
+4. **De-identify Data**: 
+	Drop `EIN` and `NAME` columns.
+5. **Analyze Unique Values**: 
+	Check the number of unique values in each column.
+6. **Group Rare Categories**: 
+	For columns with many unique values, combine rare categories into an "Other" category.
+
+7. **Encode Categorical Variables**: 
+	Use `pd.get_dummies()` for encoding.
+
+8. **Split Data**: 
+	Separate data into features (`X`) and target (`y`), then use `train_test_split` for training and testing sets.
+
+9. **Scale Features**: 
+	Standardize features using `StandardScaler()`.
+
+10. **Build Model**: 
+	Create a neural network model with TensorFlow and Keras.
+
+11. **Add Layers**: 
+	Include hidden layers with appropriate activation functions and an output layer.
+
+12. **Check Model Structure**: 
+	Inspect the model architecture.
+
+13. **Compile and Train**: 
+	Compile and fit the model.
+
+14. **Save Weights**: 
+	Use a callback to save model weights every 5 epochs.
+
+15. **Evaluate Model**: 
+	Determine loss and accuracy on test data.
+
+16. **Export Results**: 
+	Save the model as `AlphabetSoupCharity.h5`.
 
 ## Optimized Model
 
