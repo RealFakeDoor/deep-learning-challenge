@@ -42,7 +42,7 @@ You may need to install the **scikit-learn** and **keras-tuner** packages before
 3. **AlphabetSoupCharity_Optimisation.ipynb:
 	** a python script produce the auto-optimised neural network model using keras-tuner.
 
-4. **AlphabetSoupCharity_Optimised.h5:
+4. **AlphabetSoupCharity_Optimisation.h5:
 	** a HDF5 binary data formatted file for storing results from the optimised neural network model.
 
 5. **my_dir**:
