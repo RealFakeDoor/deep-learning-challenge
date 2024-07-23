@@ -1,5 +1,5 @@
 # deep-learning-challenge
-The deep-learning-challenge project aims to identify if applicants for a funding scheme can be classified into those that have the best chance of success in their ventures (i.e., 1) or failure (i.e., 0) using supervised machine learning techniques, specifically using deep learning neural networks.
+The deep-learning-challenge project aims to classify if applicants for a funding scheme have will likely be successful (1) in  fail (0). The project will achieve this using supervised machine learning techniques-  deep learning neural networks.
 
 ## Dependencies:
 
